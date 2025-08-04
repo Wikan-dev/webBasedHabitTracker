@@ -1,0 +1,19 @@
+[
+    {
+        "label" : "ads",
+        "value" : 2, 
+        "bakcground" : "#3E5F44" 
+    }, 
+    {
+        "label" : "subs",
+        "value" : 50,
+        "bakcground" : "#89BA8C"
+    },
+    {
+        "skippedHabbit" : ["drink water", "touch grass", "yoga", "cooking", "coding", "drawing", "gaming", "school"]
+    }, 
+    {
+        "myHabit" : ["drink water", "touch grass", "yoga", "cooking", "coding", "drawing", "gaming", "school"]
+    }
+]
+
