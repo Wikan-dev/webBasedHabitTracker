@@ -3,8 +3,7 @@ const react = require('@vitejs/plugin-react')
 const tailwindcss = require('tailwindcss')
 const lineClamp = require('@tailwindcss/line-clamp')
 
-// https://vitejs.dev/config/
 module.exports = defineConfig({
   plugins: [react(), tailwindcss(), lineClamp],
-  base: "/webBasedHabitTracker",
+  base: "/webBasedHabitTracker", // untuk GitHub Pages
 })
