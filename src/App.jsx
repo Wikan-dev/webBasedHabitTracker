@@ -45,7 +45,7 @@ const Home = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/webBasedHabitTracker" >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
