@@ -21,7 +21,7 @@ const Home = () => {
       <div className="relative z-10 text-center justify-center -top-40 bg-white/40 drop-shadow-xl/80 backdrop-blur-[5px] pb-10 h-90 w-140 rounded-[40px] mx-auto">
         <h1 className="font-bold text-[96px] text-[#E8FFD7] drop-shadow-md/50">Habit.io</h1>
         <h2 className="text-[30px] text-[#E8FFD7] drop-shadow-md/50 w-80 mx-auto">Best web-based habit tracker at all time</h2>
-       <Link to="/streak"><button className="bg-[#93DA97] w-90 h-30 relative top-5 rounded-[20px] font-bold text-[40px] text-[#E8FFD7] hover:scale-110 transition-all duration-1s">Join Now</button></Link>
+       <Link to="/login"><button className="bg-[#93DA97] w-90 h-30 relative top-5 rounded-[20px] font-bold text-[40px] text-[#E8FFD7] hover:scale-110 transition-all duration-1s">Join Now</button></Link>
       </div>
       <div className=" w-full h-50 top-50 bg-linear-to-b from-white/0 to-[#81C58D] absolute"></div>
       <div className="w-full h-full bg-[#81C58D] flex gap-[32px] relative -top-10 justify-between px-15">
@@ -49,7 +49,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/streak" element={<Streak />} />
+        {/* <Route path="/streak" element={<Streak />} /> */}
       </Routes> 
     </BrowserRouter>
   )
